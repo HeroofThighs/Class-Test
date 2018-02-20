@@ -52,11 +52,7 @@
   text-align: center;
   font-weight: bold;
   background: #839496;
-}
 
-.topbanner {
-  background: url("https://ih1.redbubble.net/image.29148672.7450/raf,750x1000,075,t,fafafa:ca443f4786.u2.jpg") #99E repeat-y fixed;
-}
 .simple-linear {
   background: linear-gradient(blue, pink);
 }
