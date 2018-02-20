@@ -1,0 +1,62 @@
+
+
+  h1{
+  width: 160px;
+  height: 80px;
+  padding: 20px;
+  border: 8px solid red;
+  background: yellow;
+}
+
+.content-box {
+  box-sizing: content-box;
+  /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
+     Total height: 80px + (2 * 20px) + (2 * 8px) = 136px
+     Content box width: 160px
+     Content box height: 80px */
+}
+
+.border-box {
+  box-sizing: border-box;
+  /* Total width: 160px
+     Total height: 80px
+     Content box width: 160px - (2 * 20px) - (2 * 8px) = 104px
+     Content box height: 80px - (2 * 20px) - (2 * 8px) = 24px */
+}
+
+ h1 {
+    width: 284px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.container-box {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  background: #555555;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.my-link {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  background: #839496;
+}
+
+.topbanner {
+  background: url("https://ih1.redbubble.net/image.29148672.7450/raf,750x1000,075,t,fafafa:ca443f4786.u2.jpg") #99E repeat-y fixed;
+}
+.simple-linear {
+  background: linear-gradient(blue, pink);
+}
