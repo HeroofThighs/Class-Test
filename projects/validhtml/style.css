@@ -1,10 +1,92 @@
 
 
-  h1{
+.floating-box {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}s
+
+.body {
+  background: #555555;
+}
+
+.container {
+  height: 100vh;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border: 10px solid darkblue;
+  border-radius: 50%;
+  background-image: url('http://animals.sandiegozoo.org/sites/default/files/2016-11/Koi.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+body {
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.background h1 {
+  font-size: 15vmin; /* what what? */
+  text-shadow: 2px 2px 20px black;
+}
+
+.background {
+  width: 100vw;
+  height: 50vh;
+  color: white;
+
+  background-image: url(http://animals.sandiegozoo.org/sites/default/files/2016-11/Koi.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.container {
+  height: 50vh;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border: 10px solid white;
+  border-radius: 50%;
+  background-image: url('http://animals.sandiegozoo.org/sites/default/files/2016-11/Koi.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 10px 10px 20px rgba(0,0,0,.4);
+}
+
+  .h1{
   width: 160px;
   height: 80px;
   padding: 20px;
   border: 8px solid red;
+
   background: yellow;
 }
 
@@ -24,7 +106,7 @@
      Content box height: 80px - (2 * 20px) - (2 * 8px) = 24px */
 }
 
- h1 {
+ .h1 {
     width: 284px;
     padding: 10px 10px 20px 10px;
     border: 1px solid #BFBFBF;
@@ -41,6 +123,7 @@
 .nav-container {
   background: #555555;
   margin: 0 auto;
+    border-radius: 30px;
   text-align: center;
   width: 100%;
 }
@@ -52,7 +135,11 @@
   text-align: center;
   font-weight: bold;
   background: #839496;
-
-.simple-linear {
-  background: linear-gradient(blue, pink);
 }
+
+.topbanner {
+  background: url("https://ih1.redbubble.net/image.29148672.7450/raf,750x1000,075,t,fafafa:ca443f4786.u2.jpg") #99E repeat-y fixed;
+
+ .text-shadow {
+    text-shadow: 1px 1px 2px pink;
+  }
