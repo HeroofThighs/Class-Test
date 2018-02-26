@@ -6,7 +6,7 @@
     height: 75px;
     margin: 10px;
     border: 3px solid #73AD21;
-}s
+}
 
 .body {
   background: #555555;
@@ -29,7 +29,9 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+.h1 {
+  font-size: 8rem;
+}
 
 .fa {
     padding: 20px;
@@ -90,6 +92,7 @@ body {
   background: yellow;
 }
 
+
 .content-box {
   box-sizing: content-box;
   /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
@@ -121,7 +124,7 @@ body {
 }
 
 .nav-container {
-  background: #555555;
+  background: #;
   margin: 0 auto;
     border-radius: 30px;
   text-align: center;
@@ -138,8 +141,17 @@ body {
 }
 
 .topbanner {
-  background: url("https://ih1.redbubble.net/image.29148672.7450/raf,750x1000,075,t,fafafa:ca443f4786.u2.jpg") #99E repeat-y fixed;
+  background: url("https://cdn.shopify.com/s/files/1/1657/9951/products/Voutsa-Koi-Gold-Wallpaper_800x.jpg?v=1504972678") #99E repeat-y fixed;
 
  .text-shadow {
     text-shadow: 1px 1px 2px pink;
   }
+  .h1{
+      font-family: Dosis;
+      src: url(sansation_light.woff);
+  }
+
+  .body {
+      font-family: Dosis;
+  }
+  .double {border-style: double;}
