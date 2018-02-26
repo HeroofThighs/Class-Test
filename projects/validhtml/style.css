@@ -146,11 +146,10 @@ body {
      src: url(sansation_light.woff);
  }
   .double {border-style: double;}
-  
+
  .body {
      font-family: Dosis;
  }
 .topbanner {
   background: url("https://cdn.shopify.com/s/files/1/1657/9951/products/Voutsa-Koi-Gold-Wallpaper_800x.jpg?v=1504972678") #99E repeat-y fixed;
-
-
+}
