@@ -1,5 +1,6 @@
 
 
+
 .floating-box {
     display: inline-block;
     width: 150px;
@@ -124,7 +125,7 @@ body {
 }
 
 .nav-container {
-  background: #;
+  background: #839496;
   margin: 0 auto;
     border-radius: 30px;
   text-align: center;
@@ -140,18 +141,16 @@ body {
   background: #839496;
 }
 
+ .h1{
+     font-family: Dosis;
+     src: url(sansation_light.woff);
+ }
+  .double {border-style: double;}
+  
+ .body {
+     font-family: Dosis;
+ }
 .topbanner {
   background: url("https://cdn.shopify.com/s/files/1/1657/9951/products/Voutsa-Koi-Gold-Wallpaper_800x.jpg?v=1504972678") #99E repeat-y fixed;
 
- .text-shadow {
-    text-shadow: 1px 1px 2px pink;
-  }
-  .h1{
-      font-family: Dosis;
-      src: url(sansation_light.woff);
-  }
 
-  .body {
-      font-family: Dosis;
-  }
-  .double {border-style: double;}
