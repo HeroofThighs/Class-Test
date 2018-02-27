@@ -1,5 +1,6 @@
 
 
+
 .floating-box {
     display: inline-block;
     width: 150px;
@@ -245,6 +246,17 @@ body {
     .footer  { order: 4; }
   }
 
-  body {
+  .body {
     padding: 2em;
+  }
+
+  .parent {
+    display: flex;
+    height: 300px; /* Or whatever */
+  }
+
+  .child {
+    width: 100px;
+    height: 100px;
+    margin: auto;
   }
