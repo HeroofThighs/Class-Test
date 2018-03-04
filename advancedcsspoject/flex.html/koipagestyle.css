@@ -1,5 +1,6 @@
 
 
+
 .floating-box {
     display: inline-block;
     width: 150px;
@@ -8,8 +9,37 @@
     border: 3px solid #73AD21;
 }
 
-.body {
+body {
   background: #555555;
+  font-family: Dosis;
+  background: linear-gradient(#e66465, #9198e5);
+  font-family: Arial;
+  margin: 0;
+  padding: 2em;
+  font-family: Dosis;
+  text-align: center;
+  font-size: 1rem;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background: #2D8BCF;
+  padding: 2rem 0;
+  color: white;
+  font-size: 2rem;
+  padding: .75rem;
+  color: #FFB308;
+  color: green
+  color: #8AC8E1;
+
+
+
+}
+p {
+  color: darkgreen;
+  background-color: #EEC856;
+  background-color: #EEE8D6;
 }
 
 .container {
@@ -29,9 +59,38 @@
     margin-left: auto;
     margin-right: auto;
 }
-.h1 {
-  font-size: 8rem;
+h1 {
+
+   text-align: center;
+   font-size: 5rem;
+   width: 284px;
+   padding: 10px 10px 20px 10px;
+   border: 1px solid #BFBFBF;
+   background-color: white;
+   box-shadow: 10px 10px 5px #aaaaaa;
 }
+
+h2 {
+  font-size: 3rem;
+  font-family: Dosis;
+  src: url(sansation_light.woff);
+  width: 160px;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: pink;
+  box-shadow: 10px 10px 5px #aaaaaa;
+   display: flex;
+
+
+}
+
+
+p.double {border-style: double;}
+
 
 .fa {
     padding: 20px;
@@ -47,9 +106,6 @@
 }
 
 
-body {
-  background: linear-gradient(#e66465, #9198e5);
-}
 
 .background h1 {
   font-size: 15vmin; /* what what? */
@@ -83,39 +139,20 @@ body {
   box-shadow: 10px 10px 20px rgba(0,0,0,.4);
 }
 
-  .h1{
-  width: 160px;
-  height: 80px;
-  padding: 20px;
-  border: 8px solid red;
 
-  background: yellow;
-}
 
 
 .content-box {
   box-sizing: content-box;
-  /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
-     Total height: 80px + (2 * 20px) + (2 * 8px) = 136px
-     Content box width: 160px
-     Content box height: 80px */
+
 }
 
 .border-box {
   box-sizing: border-box;
-  /* Total width: 160px
-     Total height: 80px
-     Content box width: 160px - (2 * 20px) - (2 * 8px) = 104px
-     Content box height: 80px - (2 * 20px) - (2 * 8px) = 24px */
+
 }
 
- .h1 {
-    width: 284px;
-    padding: 10px 10px 20px 10px;
-    border: 1px solid #BFBFBF;
-    background-color: white;
-    box-shadow: 10px 10px 5px #aaaaaa;
-}
+
 
 .container-box {
   width: 90%;
@@ -146,9 +183,7 @@ body {
  }
   .double {border-style: double;}
 
- .body {
-     font-family: Dosis;
- }
+
 .topbanner {
   background: url("https://cdn.shopify.com/s/files/1/1657/9951/products/Voutsa-Koi-Gold-Wallpaper_800x.jpg?v=1504972678") #99E repeat-y fixed;
 }
@@ -245,17 +280,98 @@ body {
     .footer  { order: 4; }
   }
 
-  .body {
-    padding: 2em;
-  }
 
-  .parent {
-    display: flex;
-    height: 300px; /* Or whatever */
-  }
 
-  .child {
-    width: 100px;
-    height: 100px;
-    margin: auto;
-  }
+    .parent {
+      display: flex;
+      height: 300px;
+    }
+
+    .child {
+      width: 100px;
+      height: 100px;
+      margin: auto;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+
+
+    .header {
+        padding: 60px;
+        text-align: center;
+        background: #1abc9c;
+        color: white;
+    }
+
+    .navbar {
+        display: flex;
+        background-color: #333;
+    }
+
+
+    .navbar a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .side {
+        flex: 30%;
+        background-color: #f1f1f1;
+        padding: 20px;
+    }
+
+
+    .main {
+        flex: 70%;
+        background-color: white;
+        padding: 20px;
+    }
+
+
+    .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+    }
+
+    @media (max-width: 700px) {
+        .row, .navbar {
+            flex-direction: column;
+        }
+    }
+
+    .border-box {
+      box-sizing: border-box;
+    }
+
+
+    .container-box {
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
