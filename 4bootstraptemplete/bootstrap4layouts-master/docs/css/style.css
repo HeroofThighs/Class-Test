@@ -20,7 +20,13 @@
   font-family: "Merriweather";
 }
 
+#layout-media {
+    color: white;
+}
 
+h3 {
+  color:white
+}
 
 .font-weight-light {
   font-weight: 100;
@@ -37,6 +43,7 @@ body {
 font-family: 'Dosis', sans-serif;
   text-align: center;
   font-size: 1rem;
+
 }
 
 .site-header {
